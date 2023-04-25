@@ -1,0 +1,46 @@
+#CampEscolhido h4 {
+    color: rgb(209, 209, 249);
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0),
+        -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+
+}
+
+
+#c1 h1 {
+    color: rgb(248, 193, 42);
+    text-shadow: -.5px -.5px 0 rgb(0, 0, 0), .5px -.5px 0 rgb(0, 0, 0),
+        -.5px .5px 0 rgb(0, 0, 0), .5px 2px 0 rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+#c1 img {
+    
+    width: 350px;
+    border-radius: 50%;
+}
+
+
+#composicao img {
+    margin-top: 2rem;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#naoBateu {
+    display: inline-block;
+    width: calc(50% - 50px);
+    /* ajuste este valor de acordo com a largura desejada para cada div */
+    margin-right: 0px;
+    /* ajuste este valor para definir o espaço entre as divs */
+    margin-top: 2rem;
+}
+
+#naoBateu img {
+
+    width: 150px;
+    border-radius: 50%;
+}

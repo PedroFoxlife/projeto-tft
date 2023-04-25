@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+import { useContext } from 'react'
+import { CorpoContext } from './context/corpo'
+import Inicio from './estagios/inicio';
 import './App.css';
+import EscolheuAP from './estagios/escolheuAP';
+import EscolheuAD from './estagios/escolheuAD';
+import Escolhido from './estagios/Escolhido';
+import EscolhidoB from './estagios/escolhidoB'
+
 
 function App() {
+  const [corpoState,dispatch] = useContext(CorpoContext);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>  
+
+  {corpoState.siteStage === "Inicio" && <Inicio/>}
+  {corpoState.siteStage === "EscolhasAP" && <EscolheuAP/>}
+  {corpoState.siteStage === "EscolhasAD" && <EscolheuAD/>}
+  {corpoState.siteStage === "EscolhidoA" && <Escolhido/>}
+  {corpoState.siteStage === "EscolhidoB" && <EscolhidoB/>}
+
     </div>
+
   );
 }
 

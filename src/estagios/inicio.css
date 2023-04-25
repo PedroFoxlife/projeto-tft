@@ -1,0 +1,66 @@
+#inicio{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 70px;
+
+}
+
+#inicio p{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#inicio img{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+#buttonWraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+    padding: 0px 20px;
+
+}
+#buttonWraper button{
+    color: rgb(248, 193, 42);
+    text-shadow: -.5px -.5px 0 rgb(0, 0, 0),.5px -.5px 0 rgb(0, 0, 0), 
+    -.5px .5px 0 rgb(0, 0, 0), .5px 2px 0 rgb(0, 0, 0);
+}
+#informacoes{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#infoAp p{
+    text-align: justify;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    font-size: 8px;
+}
+
+#infoAp img{
+    display: flex;
+    margin-top: .5rem;
+    margin-left: 4.5rem;   
+    max-width: 65px;
+    border-radius: 50%;
+}
+
+#infoAd p{
+    
+    text-align: justify;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    font-size: 8px;
+}
+
+#infoAd img{
+    display: flex;
+    margin-top: .5rem;
+    margin-left: 4rem;   
+    max-width: 65px;
+    border-radius: 50%;
+}

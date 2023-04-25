@@ -1,0 +1,63 @@
+.escolhas div {
+    display: inline-block;
+    width: calc(40% - 10px);
+    /* ajuste este valor de acordo com a largura desejada para cada div */
+    margin-right: 9px;
+    /* ajuste este valor para definir o espaço entre as divs */
+    margin-top: 2rem;
+    
+}
+
+.escolhas div:last-child {
+    margin-right: 0;
+    /* remova a margem da última div para evitar um espaço extra no final */
+}
+
+.escolhas img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#escolha {
+    width: 400px;
+    border: 1px solid rgb(0, 0, 0);
+    background: linear-gradient(90deg,
+            rgb(22, 19, 41)0%,
+            rgb(33, 37, 98)100%);
+}
+
+
+
+#escolha:hover {
+    background: linear-gradient(90deg,
+    rgb(33, 37, 98)0%,
+    rgb(22, 19, 41)100%);
+}
+
+
+#blocoAp h2 {
+    font-size: 30px;
+    color: rgb(248, 193, 42);
+    text-shadow: -2px -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0),
+        -2px 2px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0);
+}
+
+.escolhas h3 {
+    color: rgb(209, 209, 249);
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0),
+        -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
+}
+
+.escolhas h4 {
+    color: rgb(209, 209, 249);
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0),
+        -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
+}
+
+#blocoAp img {
+    max-width: 370px;
+}
+
+#blocoAp button{
+    margin-left: 10rem;
+}
